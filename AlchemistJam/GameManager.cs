@@ -14,6 +14,7 @@ namespace AlchemistJam
         {
             var mainGame = new Game("Chemical Mage",860,640);
             mainGame.Start(scene);
+           
         }
        
        
