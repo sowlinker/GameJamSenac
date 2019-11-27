@@ -11,10 +11,10 @@ namespace AlchemistJam
     {
         static void Main(string[] args)
         {
+            
             var play = new GameManager();
             var scene = new Scene();
-            scene.Add(new Laboratory(500, 500, @"C:\Vs\GameJamSenac\AlchemistJam\Asset\chemical-laboratory.png"));
-
+            scene.Add(new Laboratory(350, 350, @"C:\Vs\GameJamSenac\AlchemistJam\Asset\chemical-laboratory.png"));
             play.StartGame(scene);
             
 

@@ -13,8 +13,9 @@ namespace AlchemistJam
         public void StartGame(Scene scene)
         {
             var mainGame = new Game("Chemical Mage",860,640);
+            mainGame.MouseVisible = true;
             mainGame.Start(scene);
-           
+            
         }
        
        
